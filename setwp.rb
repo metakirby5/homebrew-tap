@@ -19,7 +19,6 @@ class Setwp < Formula
   end
 
   depends_on "go" => :build
-  depends_on macos: :yosemite
 
   go_resource "github.com/docopt/docopt-go" do
     url "https://github.com/docopt/docopt-go.git",
